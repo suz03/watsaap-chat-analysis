@@ -1,0 +1,215 @@
+03/02/24, 8:33 pm - Messages to yourself are end-to-end encrypted. No one outside of this chat, not even WhatsApp, can read or listen to them. Tap to learn more.
+03/02/24, 8:33 pm - surajojha03: https://raw.githubusercontent.com/harika-bonthu/SupportVectorClassifier/main/datasets_229906_491820_Fish.csv%22
+05/02/24, 6:44 pm - surajojha03: {"email":["This field is re quired."],"fresher_job": ["This field is required."]}
+06/02/24, 6:44 pm - surajojha03: {"user_email": ["Incorrect type. Expected pk value, received str."],"job_profile": ["Incorrect type. Expected pk value, received str."]}
+09/02/24, 12:17 am - surajojha03: Dear [Manager's Name],
+
+I hope this email finds you well. I regret to inform you that due to personal financial constraints, I must resign from my position at [Company Name], effective immediately.
+
+I have valued my time here and appreciate the opportunities provided to me. If there are any possibilities for assistance or adjustments that would allow me to continue, I am open to discussing them.
+
+Thank you for your understanding.
+
+Sincerely,
+[Your Name]
+09/02/24, 12:19 am - surajojha03: Dear [Manager's Name],
+
+I hope this email finds you well. I regret to inform you that due to personal financial constraints, I must resign from my position at [Company Name], effective immediately.
+
+I have valued my time here and appreciate the opportunities provided to me. If there are any possibilities for assistance or adjustments that would allow me to continue, I am open to discussing them.
+
+Thank you for your understanding.
+
+Sincerely,
+[Your Name]
+09/02/24, 12:20 am - surajojha03: Subject: Resignation Due to Financial Constraints and Request for Assistance
+09/02/24, 12:31 am - surajojha03: Dear Sanjeev Pal,
+
+I hope this email finds you well. I regret to inform you that I must resign from my position at CRTD Technologies due to personal financial constraints. As an unpaid employee, it has become increasingly difficult for me to continue in my role.
+
+I have valued my time here and the opportunities provided to me. However, if there is any possibility of assistance or adjustments that would allow me to continue, such as providing a stipend, I am open to discussing them.
+
+Additionally, I kindly request that my certificates and an experience letter be prepared and released to me as soon as possible to facilitate my transition.
+
+Thank you for your understanding.
+
+Sincerely, [Your Name]
+21/02/24, 8:01 pm - surajojha03: Dear Hiring Manager,
+
+I am writing to express my interest in the Business Analyst position advertised on LinkedIn. With a strong background in business analysis and a passion for leveraging data to drive strategic decisions, I am excited about the opportunity to contribute to your team.
+
+In my previous roles, I have successfully conducted market research, identified key business trends, and developed actionable insights to support decision-making processes. My experience in data analysis, stakeholder engagement, and project management has equipped me with the skills necessary to excel in a dynamic and collaborative environment.
+
+I am particularly drawn to your commitment to innovation and continuous improvement. I am eager to apply my analytical skills to identify opportunities for process optimization and drive business growth.
+
+Attached is my resume, which provides further detail about my qualifications and achievements. I would welcome the opportunity to discuss how my background, skills, and passion align with the needs of your team.
+
+Thank you for considering my application. I look forward to the possibility of contributing to your success.
+
+Sincerely, 
+
+Suraj Ojha
+
+7771974705
+21/02/24, 9:45 pm - surajojha03: <Media omitted>
+24/02/24, 9:17 pm - surajojha03: import pandas as pd
+import numpy as np
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
+from sklearn.preprocessing import StandardScaler
+
+# Load the dataset into pandas DataFrame
+file_path = 'Fraud.csv'
+df = pd.read_csv(file_path)
+
+# Perform one-hot encoding on categorical variables
+df = pd.get_dummies(df)
+
+# Split data into features (X) and target variable (y)
+X = df.drop(['isFraud'], axis=1)
+y = df['isFraud']
+
+# Split the data into training and testing sets
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Standardize features
+scaler = StandardScaler()
+X_train_scaled = scaler.fit_transform(X_train)
+X_test_scaled = scaler.transform(X_test)
+
+# Train the logistic regression model
+logistic_model = LogisticRegression()
+logistic_model.fit(X_train_scaled, y_train)
+
+# Make predictions on the testing set
+y_pred = logistic_model.predict(X_test_scaled)
+
+# Evaluate the logistic regression model
+print("Logistic Regression Classifier:")
+print("Accuracy:", accuracy_score(y_test, y_pred))
+print("Classification Report:")
+print(classification_report(y_test, y_pred))
+print("Confusion Matrix:")
+print(confusion_matrix(y_test, y_pred))
+06/03/24, 1:21 pm - surajojha03: <Media omitted>
+06/03/24, 1:21 pm - surajojha03: <Media omitted>
+06/03/24, 1:21 pm - surajojha03: <Media omitted>
+06/03/24, 1:21 pm - surajojha03: <Media omitted>
+06/03/24, 1:21 pm - surajojha03: <Media omitted>
+06/03/24, 1:21 pm - surajojha03: <Media omitted>
+10/03/24, 8:29 pm - surajojha03: <Media omitted>
+02/04/24, 1:42 pm - surajojha03: Course Name: Visitor & Student Visa Assistance
+Duration: 2 Weeks + 2 Months Support
+Class Time: 7 or 8 PM (1 to 2 Hour Class)
+Fees: Rs. 30,000 (Choose one country: Australia, Canada, New Zealand, UK, USA)
+Content: Visa File Preparation, Client Counseling, Financials, Form Filling, SOP Writing, Document Collection, Embassy Submission, Passport Collection, Client Fee Collection in Advance.
+02/04/24, 2:12 pm - surajojha03: www.thetourismschool.com
+02/04/24, 2:13 pm - surajojha03: www.thetourismschool.com
+02/04/24, 2:13 pm - surajojha03: #travelindustry hashtag#gdscourse hashtag#tourismschool
+03/04/24, 1:17 am - surajojha03: <Media omitted>
+03/04/24, 1:18 am - surajojha03: <Media omitted>
+05/04/24, 11:11 pm - surajojha03: project involves building a deep learning model to classify images of cats and dogs. It includes the following steps:
+
+Preparing the dataset, which consists of images of cats and dogs.
+Building a Convolutional Neural Network (CNN) model architecture.
+Training the model using the training dataset.
+Evaluating the model's performance on a separate testing dataset.
+Making predictions on new images to classify them as either cats or dogs.
+The model learns from the dataset to automatically identify features that distinguish between cats and dogs. After training, it can accurately classify new images into the appropriate category.
+05/04/24, 11:14 pm - surajojha03: https://drive.google.com/drive/mobile/folders/1sQhn2RpA-OsDpXF8e1LaLgdNXjG9zGPE?pli=1
+07/04/24, 11:56 pm - surajojha03: <Media omitted>
+10/04/24, 12:39 am - surajojha03: https://app.wishup.co/application/description/oam/tests/670460
+15/04/24, 12:23 am - surajojha03: https://docs.google.com/spreadsheets/d/1JhJLsEeF4abTHbB4buSouoD4ENTDLocsgv8hW1wbDts/edit#gid=666001561
+15/04/24, 1:43 am - surajojha03: https://github.com/suz03/Forecasting-the-female-births.git
+16/04/24, 11:18 pm - surajojha03: <Media omitted>
+16/04/24, 11:28 pm - surajojha03: https://docs.google.com/spreadsheets/d/1mt3v0U2SotxlXEZPKOSGt1ksWsg3GOay0tkwIKMxyWI/edit#gid=658041011
+16/04/24, 11:29 pm - surajojha03: https://github.com/suz03/Forecasting-the-female-births.g
+17/04/24, 12:00 am - surajojha03: <Media omitted>
+17/04/24, 11:06 pm - surajojha03: <Media omitted>
+28/04/24, 8:00 pm - surajojha03: import numpy as np import pandas as pd
+
+from sklearn.feature_extraction.text import CountVectorizer from keras.preprocessing.text import Tokenizer from keras.utils import pad_sequences
+
+from keras.models import Sequential from keras.layers import Dense, Embedding, LSTM, SpatialDropout1D from sklearn.model_selection import train_test_split from tensorflow.keras import utils import re
+05/05/24, 11:49 pm - surajojha03: Hello [Sender's Name],
+
+Thank you for reaching out. I wanted to express my continued interest in the [specific position] at Skynet E-Solution Pvt Ltd. I'm enthusiastic about the opportunity to contribute to your team and am eager to learn more about the next steps in the hiring process.
+
+Best regards,
+[Your Name]"
+14/05/24, 11:27 pm - surajojha03: <Media omitted>
+21/05/24, 11:55 pm - surajojha03: <Media omitted>
+21/05/24, 11:55 pm - surajojha03: https://zipextractor.app/
+21/05/24, 11:56 pm - surajojha03: <Media omitted>
+21/05/24, 11:56 pm - surajojha03: <Media omitted>
+24/05/24, 12:32 am - surajojha03: <Media omitted>
+29/05/24, 3:39 pm - surajojha03: Write a program to accept percentage from the user and display the grade according to the following criteria:
+
+Marks
+
+> 90
+
+> 80 and <= 90
+
+>= 60 and <= 80
+
+below 60
+
+Grade
+
+A
+
+B
+
+C
+
+D
+11/06/24, 1:19 am - surajojha03: <Media omitted>
+12/06/24, 12:10 am - surajojha03: <Media omitted>
+14/06/24, 9:13 pm - surajojha03: https://app.soulhq.ai/?campus=Python-Developer-LinkedIn
+15/06/24, 1:56 am - surajojha03: <Media omitted>
+15/06/24, 1:56 am - surajojha03: <Media omitted>
+15/06/24, 1:56 am - surajojha03: <Media omitted>
+15/06/24, 1:56 am - surajojha03: <Media omitted>
+17/06/24, 11:58 pm - surajojha03: https://drive.google.com/drive/folders/1VF06Lj80Mrr9RMlJqJ6hrFi_NuZJ8xyp
+18/06/24, 12:12 am - surajojha03: <Media omitted>
+18/06/24, 12:12 am - surajojha03: <Media omitted>
+18/06/24, 12:12 am - surajojha03: <Media omitted>
+18/06/24, 12:12 am - surajojha03: <Media omitted>
+18/06/24, 12:12 am - surajojha03: <Media omitted>
+18/06/24, 12:12 am - surajojha03: <Media omitted>
+20/06/24, 11:46 pm - surajojha03: <Media omitted>
+21/06/24, 12:18 am - surajojha03: Counting Organizations
+21/06/24, 12:19 am - surajojha03: Project Description:
+
+Developed a Python script to analyze mailbox data (mbox.txt) and count the number of email messages per organization.
+Utilized SQLite database to store and manage domain counts.
+Implemented data cleaning logic to extract domain names from email addresses.
+Produced formatted output displaying the counts of email messages per organization.
+21/06/24, 12:21 am - surajojha03: Project Description:
+
+Developed a Python script to analyze mailbox data (mbox.txt) and count the number of email messages per organization.
+Utilized SQLite database to store and manage domain counts.
+Implemented data cleaning logic to extract domain names from email addresses.
+Produced formatted output displaying the counts of email messages per organization.
+Technologies Used:
+Python, SQLite, Data Parsing, SQL Queries
+
+Achievements:
+
+Successfully parsed and processed email data, handling potential edge cases and errors.
+Implemented efficient database operations to manage and retrieve domain counts.
+Demonstrated proficiency in SQL and database management for data analysis purposes.
+Skills Demonstrated
+Programming Languages: Python
+Database Management: SQLite
+Data Processing: Parsing, Cleaning, SQL Queries
+Problem Solving: Handling edge cases in data parsing and database operations
+21/06/24, 12:28 am - surajojha03: <Media omitted>
+21/06/24, 12:49 am - surajojha03: https://github.com/suz03/tatistical-Analysis-and-Data-Manipulation.git
+21/06/24, 2:36 pm - surajojha03: https://app.soulhq.ai/?campus=data-analyst
+21/06/24, 11:53 pm - surajojha03: Whatsapp Chat Analysis Project File LInk- https://drive.google.com/drive/folders/1v9GbHo7Y0WNumCE0f_h_Vj1GFWIVsqt3 
+
+Customer Segmentation:
+https://drive.google.com/drive/folders/1duvl32-1A-WTD8hJtV7XBx-48TZ-1WBh?usp=drive_link
